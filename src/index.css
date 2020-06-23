@@ -5,9 +5,44 @@ body {
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+  height: 100%;
 }
 
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
+}
+
+
+.form-control label, 
+.form-control input {
+  width: 100%;
+  display: block;
+  box-sizing: border-box;
+}
+
+.form-control label {
+  margin-bottom: 0.5rem;
+}
+
+.form-control {
+  margin-bottom: 1rem;
+}
+
+.form-actions button,
+.btn {
+  background: none;
+  font: inherit;
+  border: 0;
+  bottom: 0;
+  color: silver;
+  cursor: pointer; 
+  outline: none;
+}
+
+.form-actions button:hover,
+.form-actions button:active, 
+.btn:hover, 
+.btn:active {
+  color: white;
 }

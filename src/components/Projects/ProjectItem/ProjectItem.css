@@ -1,0 +1,24 @@
+.projects__list-item {
+  /* margin: 0 1rem; */
+  padding: 1rem;
+  border-bottom: 1px solid #7c7c7c;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.projects__list-item h1 {
+  margin: 0;
+  font-size: 1.5rem;
+  /* color: #292f33; */
+}
+
+.projects__list-item h2 {
+  margin: 0;
+  font-size: 1rem;
+  /* color: #7c7c7c; */
+}
+
+.projects__list-item p {
+  margin: 0;
+}

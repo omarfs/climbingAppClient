@@ -1,0 +1,14 @@
+.content-title {
+  text-align: center;
+  padding: 1rem;
+  margin: 2rem auto;
+  box-sizing: border-box;
+  display: flex;
+  justify-content: space-between;
+}
+
+.routes-control {
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+}
